@@ -1,6 +1,3 @@
-//your JS code here. If required.
-// removeColor.js
-
 function removeSelectedColor() {
     const colorSelect = document.getElementById('colorSelect');
     const selectedValue = colorSelect.value;
@@ -13,3 +10,5 @@ function removeSelectedColor() {
         }
     }
 }
+
+document.getElementById('removeButton').addEventListener('click', removeSelectedColor);
